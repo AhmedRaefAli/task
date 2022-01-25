@@ -1,0 +1,24 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "nodes.js working with sql server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "raef",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mssql": "^7.3.0",
+    "pg": "^8.7.1",
+    "socket.io": "^4.4.1"
+  }
+}
